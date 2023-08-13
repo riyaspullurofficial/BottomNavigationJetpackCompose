@@ -108,6 +108,17 @@ class MainActivity : ComponentActivity() {
                             }
                         }
                     }) {
+                        when (selectedItemIndex) {
+                            0 -> {
+                                HomeScreen()
+                            }
+                            1 -> {
+                                MessageScreen()
+                            }
+                            2 -> {
+                                SettingsScreen()
+                            }
+                        }
 
 
                     }
